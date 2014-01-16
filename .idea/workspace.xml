@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6df2dd4d-8037-4e3f-af9c-b7eebed89446" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/refactor/IntroduceNamedParameters.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/refactor/IntroduceNamedParametersTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/refactor/IntroduceNamedParameters.scala" afterPath="$PROJECT_DIR$/src/main/scala/refactor/IntroduceNamedParameters.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQuery.scala" afterPath="$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQuery.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactoringscala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,19 +77,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntroduceNamedParameters.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IntroduceNamedParameters.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/IntroduceNamedParameters.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="315" selection-end="322" vertical-scroll-proportion="0.36379614" vertical-offset="0" max-vertical-offset="667">
+            <state line="3" column="105" selection-start="127" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntroduceNamedParametersTest.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="30" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="3174">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Seq.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/collection/Seq.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="7" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="897">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqLike.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/collection/SeqLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="526" column="6" selection-start="17895" selection-end="17895" vertical-scroll-proportion="0.0" vertical-offset="11683" max-vertical-offset="20378">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroduceNamedParametersTest.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/refactor/IntroduceNamedParametersTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="75" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598">
+            <state line="7" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.28956833" vertical-offset="0" max-vertical-offset="598">
               <folding />
             </state>
           </provider>
@@ -104,19 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerTest.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/refactor/baseexample/refactored/CustomerTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="529">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReplaceTempWithQuery.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQuery.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+            <state line="6" column="39" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
               <folding />
             </state>
           </provider>
@@ -126,24 +144,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/IntroduceExplainingVariable.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="5" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtractSurroundingMethod.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/ExtractSurroundingMethod.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="18" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rental.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/baseexample/original/Rental.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -177,12 +177,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/refactor/ExtractSurroundingMethod2.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HelloSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQueryV1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQuery.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/refactor/IntroduceExplainingVariable.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/refactor/ExtractSurroundingMethod.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/refactor/ExtractSurroundingMethodTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/refactor/IntroduceNamedParameters.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/refactor/IntroduceNamedParametersTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQuery.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/refactor/IntroduceNamedParameters.scala" />
       </list>
     </option>
   </component>
@@ -759,12 +759,12 @@
       <created>1389850175257</created>
       <updated>1389850175257</updated>
       <workItem from="1389850175690" duration="1665000" />
-      <workItem from="1389851843229" duration="7064000" />
+      <workItem from="1389851843229" duration="10202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8729000" />
+    <option name="totallyTimeSpent" value="11867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
@@ -784,7 +784,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -939,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQuery.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/IntroduceExplainingVariable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="5" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
@@ -981,16 +974,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/refactor/IntroduceNamedParametersTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/ReplaceTempWithQuery.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="75" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598">
+        <state line="6" column="39" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="526" column="6" selection-start="17895" selection-end="17895" vertical-scroll-proportion="0.0" vertical-offset="11683" max-vertical-offset="20378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/collection/Seq.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="30" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="3174">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/refactor/IntroduceNamedParameters.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="315" selection-end="322" vertical-scroll-proportion="0.36379614" vertical-offset="0" max-vertical-offset="667">
+        <state line="3" column="105" selection-start="127" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/refactor/IntroduceNamedParametersTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.28956833" vertical-offset="0" max-vertical-offset="598">
           <folding />
         </state>
       </provider>
