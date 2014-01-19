@@ -1,6 +1,6 @@
 package refactor
 
-class ExtractSurroundingMethod2 {
+object ExtractSurroundingMethod2 {
 
   class Person(private val name: String, mother: Option[Person], dob: String, private val dod: Option[String]) {
 
