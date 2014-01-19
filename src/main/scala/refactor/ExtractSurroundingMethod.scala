@@ -2,7 +2,7 @@ package refactor
 
 import scala.util.control.NonFatal
 
-class ExtractSurroundingMethod {
+object ExtractSurroundingMethod {
 
   object Original {
     def charge(amount: Double, creditCardNumber: String) = {
@@ -18,26 +18,24 @@ class ExtractSurroundingMethod {
   }
 
   object Refactored {
-    def charge(amount: Double, creditCardNumber: String) = SurroundingMethod.connect {
-      connection =>
-        connection.send(amount, creditCardNumber)
-    }
-
-    object SurroundingMethod {
-      def connect[T](f: Conn => T): T = {
-        val connection: Conn = new Conn {}
-        try {
-          f(connection)
-        } catch {
-          case NonFatal(ex) => println(s"Could not submit to the server: ${ex.getMessage}"); throw ex
-        } finally {
-          connection.close()
-        }
-      }
+    def charge(amount: Double, creditCardNumber: String) = SurroundingMethod.connect { connection =>
+      connection.send(amount, creditCardNumber)
     }
   }
 }
 
+object SurroundingMethod {
+  def connect[T](f: Conn => T): T = {
+    val connection: Conn = new Conn {}
+    try {
+      f(connection)
+    } catch {
+      case NonFatal(ex) => println(s"Could not submit to the server: ${ex.getMessage}"); throw ex
+    } finally {
+      connection.close()
+    }
+  }
+}
 
 trait Conn {
   def send(amount: Double, creditCardNumber: String) = println("sending")
